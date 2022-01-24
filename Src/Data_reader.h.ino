@@ -1,3 +1,5 @@
+//Arduino Program for reading data from an old EEprom
+
 byte data_array[256];
 
 #define NUMITEMS(arg) ((unsigned int) (sizeof (arg) / sizeof (arg [0])))
